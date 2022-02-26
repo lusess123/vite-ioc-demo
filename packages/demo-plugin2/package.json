@@ -6,7 +6,7 @@
   "maintainers":["zyking"],
   "dependencies": {
     "vue": "^3.2.25",
-    "demo-motherboard": "^0.0.0"
+    "@ralc/demo-motherboard": "^0.0.0"
   },
   "devDependencies": {
     "typescript": "^4.5.4"
