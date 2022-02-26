@@ -1,9 +1,9 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import * as plugin1_inf from '@plugin1';
-import * as plugin1_impl from 'demo-plugin1';
+import * as plugin1_impl from '@ralc/demo-plugin1';
 import * as plugin2_inf from '@plugin2';
-import * as plugin2_impl from 'demo-plugin2';
+import * as plugin2_impl from '@ralc/demo-plugin2';
 
 function checkPlugin<A, B extends A>(a: A, b: B) {
 }

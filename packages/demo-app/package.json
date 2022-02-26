@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npm run chimera-link && npm run dev ",
+    "chimera-link": "chimera-link -m @ralc/demo-motherboard,@ralc/demo-plugin1,@ralc/demo-plugin2"
   },
   "dependencies": {
     "@ralc/demo-motherboard": "^0.0.1-alpha.0",
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
+    "chimera-link": "^1.0.5",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"

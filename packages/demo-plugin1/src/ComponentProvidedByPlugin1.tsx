@@ -30,7 +30,7 @@ export const ComponentProvidedByPlugin1: typeof plugin1.ComponentProvidedByPlugi
         }
     },
     render() {
-        return <div>ComponentProvidedByPlugin1</div>
+        return <div>ComponentProvidedByPlugin111qqqq1</div>
     }
 });
 

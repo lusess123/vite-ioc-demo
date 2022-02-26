@@ -8,7 +8,7 @@ export default defineConfig({
     name: 'inject @plugin1',
     resolveId(id) {
       if (id === '@plugin1') {
-        return 'demo-plugin1';
+        return '@ralc/demo-plugin1';
       }
     }
   }, {
@@ -17,7 +17,7 @@ export default defineConfig({
     name: 'inject @plugin2',
     resolveId(id) {
       if (id === '@plugin2') {
-        return 'demo-plugin2';
+        return '@ralc/demo-plugin2';
       }
     }
   }],

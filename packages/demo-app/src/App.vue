@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SomePage } from 'demo-motherboard';
+import { SomePage } from '@ralc/demo-motherboard';
 </script>
 <template>
     <SomePage />
