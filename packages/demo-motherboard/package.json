@@ -1,5 +1,5 @@
 {
-    "name": "demo-motherboard",
+    "name": "@ralc/demo-motherboard",
     "version": "0.0.0",
     "main": "src/index.ts",
     "dependencies": {
