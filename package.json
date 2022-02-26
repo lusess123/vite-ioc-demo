@@ -5,6 +5,6 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start" : "cd packages/demo-app && npm run start"
+    "start" : "cd packages/demo-app && npm i  && npm  start"
   }
 }
