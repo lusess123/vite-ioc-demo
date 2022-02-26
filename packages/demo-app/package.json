@@ -1,18 +1,20 @@
 {
   "name": "@ralc/demo-app",
   "license": "MIT",
-  "version": "0.0.0",
-  "maintainers":["zyking"],
+  "version": "0.0.1-alpha.0",
+  "maintainers": [
+    "zyking"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25",
-    "@ralc/demo-motherboard": "^0.0.0",
-    "@ralc/demo-plugin1": "^0.0.0",
-    "@ralc/demo-plugin2": "^0.0.0"
+    "@ralc/demo-motherboard": "^0.0.1-alpha.0",
+    "@ralc/demo-plugin1": "^0.0.1-alpha.0",
+    "@ralc/demo-plugin2": "^0.0.1-alpha.0",
+    "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

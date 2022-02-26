@@ -1,12 +1,14 @@
 {
   "name": "@ralc/demo-plugin1",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "license": "MIT",
   "main": "src/index.ts",
-  "maintainers":["zyking"],
+  "maintainers": [
+    "zyking"
+  ],
   "dependencies": {
-    "vue": "^3.2.25",
-    "@ralc/demo-motherboard": "^0.0.0"
+    "@ralc/demo-motherboard": "^0.0.1-alpha.0",
+    "vue": "^3.2.25"
   },
   "devDependencies": {
     "typescript": "^4.5.4"
