@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "demo-motherboard": "workspace:*",
-    "demo-plugin1": "workspace:*",
-    "demo-plugin2": "workspace:*"
+    "demo-motherboard": "^0.0.0",
+    "demo-plugin1": "^0.0.0",
+    "demo-plugin2": "^0.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

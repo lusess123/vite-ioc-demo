@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "dependencies": {
     "vue": "^3.2.25",
-    "demo-motherboard": "workspace:*"
+    "demo-motherboard": "^0.0.0"
   },
   "devDependencies": {
     "typescript": "^4.5.4"
