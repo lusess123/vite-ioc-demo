@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "license": "MIT",
     "main": "src/index.ts",
-    "maintainers":["lusess"],
+    "maintainers":["zyking"],
     "dependencies": {
       "vue": "^3.2.25"
     },

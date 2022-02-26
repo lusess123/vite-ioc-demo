@@ -2,7 +2,7 @@
   "name": "@ralc/demo-app",
   "license": "MIT",
   "version": "0.0.0",
-  "maintainers":["lusess"],
+  "maintainers":["zyking"],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
