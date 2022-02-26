@@ -1,6 +1,7 @@
 {
   "name": "@ralc/demo-plugin2",
   "version": "0.0.0",
+  "license": "MIT",
   "main": "src/index.ts",
   "dependencies": {
     "vue": "^3.2.25",
